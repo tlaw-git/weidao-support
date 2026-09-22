@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wèidào 味道 — Privacy Policy</title>
+<meta name="description" content="Privacy policy for Wèidào, the bilingual Chinese recipe vault.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;700&display=swap">
+<style>
+  :root {
+    --red: #C0392B; --red-dark: #8E2A1E; --cream: #FFF7EE; --panel: #FBE9D7;
+    --ink: #2B1B2E; --muted: #6E5A52; --line: #F0E3D6; --mustard-light: #FDF0D6; --mustard-deep: #8A6410;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--cream); color: var(--ink); font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif; line-height: 1.55; }
+  .zh { font-family: 'Noto Sans SC', 'PingFang SC', sans-serif; letter-spacing: 0.06em; }
+  a { color: var(--red); } a:hover { color: var(--red-dark); }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 24px 72px; }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 32px; }
+  .mark { width: 56px; height: 56px; border-radius: 18px; background: var(--red); display: grid; place-items: center; flex-shrink: 0; }
+  .name { font-family: 'Fraunces', Georgia, serif; font-weight: 800; font-size: 28px; line-height: 1; }
+  .name-zh { color: var(--red); font-weight: 700; font-size: 16px; margin-top: 4px; }
+  .banner { background: var(--panel); border-radius: 24px; padding: 24px 28px; margin-bottom: 40px; }
+  .banner h1 { font-family: 'Fraunces', Georgia, serif; font-weight: 800; font-size: 30px; line-height: 1.15; margin: 0 0 8px; letter-spacing: -0.3px; }
+  .banner p { margin: 0; color: var(--muted); font-weight: 500; }
+  .contact { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; background: #fff; border: 1px solid var(--line); border-radius: 22px; padding: 20px 24px; margin-bottom: 40px; }
+  .contact strong { font-family: 'Fraunces', Georgia, serif; font-size: 20px; }
+  .contact a.btn { margin-left: auto; background: var(--red); color: #fff; text-decoration: none; font-weight: 700; padding: 12px 20px; border-radius: 18px; min-height: 44px; display: inline-flex; align-items: center; }
+  .contact a.btn:hover { background: var(--red-dark); color: #fff; }
+  h2 { font-family: 'Fraunces', Georgia, serif; font-weight: 700; font-size: 22px; margin: 40px 0 12px; }
+  h2 .zh { font-size: 15px; color: var(--muted); font-weight: 400; margin-left: 8px; }
+  details { background: #fff; border: 1px solid var(--line); border-radius: 18px; padding: 4px 20px; margin-bottom: 10px; }
+  summary { cursor: pointer; font-weight: 600; padding: 12px 0; min-height: 44px; display: flex; align-items: center; }
+  details p { margin: 0 0 14px; color: #4A3A40; }
+  .pill { display: inline-block; background: var(--mustard-light); color: var(--mustard-deep); font-weight: 600; font-size: 12px; padding: 5px 12px; border-radius: 999px; }
+  footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="mark" aria-hidden="true">
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="none">
+        <path d="M3.5 11.5h17a8.5 8.5 0 0 1-17 0Z" fill="#fff"/>
+        <path d="M2.2 11.5h19.6" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+        <path d="M9.2 7.4c0-1.5 1.5-1.8 1.5-3.3M13.4 7.4c0-1.8 1.8-2.1 1.8-3.7" stroke="#fff" stroke-width="1.7" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div>
+      <div class="name">W&#232;id&#224;o</div>
+      <div class="name-zh zh">&#21619;&#36947;</div>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h1>Privacy Policy</h1>
+    <p>Last updated 22 September 2026. This policy covers the W&#232;id&#224;o iOS and Android apps.</p>
+  </section>
+
+  <p>W&#232;id&#224;o is built to keep family recipes, not to collect information about you. There are no user accounts to create, no advertising, no analytics and no tracking of any kind. We never sell or share your information, and nothing you record or write is used to train our own models.</p>
+
+  <h2>What stays on your device</h2>
+  <p>Your recipes live in a database on your phone. Titles, ingredients, steps, categories, timings and bookmarks are stored locally and are not uploaded to us. Your language and script preferences are stored locally too. Deleting the app deletes this data.</p>
+
+  <h2>What is sent to our server</h2>
+  <p>Two things leave your device, and only when you choose to record a recipe by voice:</p>
+  <details open>
+    <summary>Audio recordings</summary>
+    <p>When you finish recording, the audio file is sent over an encrypted connection to our server, which forwards it to OpenAI&#8217;s Whisper service to be converted to text. We do not keep the audio. Once the text comes back, the recording is discarded from our server.</p>
+  </details>
+  <details open>
+    <summary>The transcribed recipe text</summary>
+    <p>The text is sent to Anthropic&#8217;s Claude API, which organises it into ingredients and steps and translates it between English and Chinese. The structured recipe is returned to your phone and saved there. We do not keep a copy.</p>
+  </details>
+  <p>These providers process the content to perform the request and may retain it briefly for abuse monitoring under their own policies. See the <a href="https://openai.com/policies/privacy-policy">OpenAI privacy policy</a> and the <a href="https://www.anthropic.com/legal/privacy">Anthropic privacy policy</a>.</p>
+
+  <h2>Anonymous app identifier</h2>
+  <p>So that the voice service is not abused by people outside the app, each installation is issued a random, anonymous identifier the first time it is used. We record that identifier with the date and type of each voice request in order to apply daily limits. It contains no name, email address, phone number or device details, and it is not connected to your identity or used to track you across other apps or websites.</p>
+
+  <h2>Permissions</h2>
+  <p>The app requests microphone access only for voice capture, and only when you first tap record. You can decline and still add recipes manually. The app does not request contacts, photos, location or any other permission.</p>
+
+  <h2>Children</h2>
+  <p>W&#232;id&#224;o is suitable for all ages and does not knowingly collect personal information from anyone, including children.</p>
+
+  <h2>Your choices</h2>
+  <p>Because your recipes are stored only on your device, you control them directly: edit or delete recipes in the app, or delete the app to remove all of them. To request deletion of the anonymous usage records associated with your installation, or to ask any question about this policy, email us and we will respond within two business days.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes we will update this page and the date at the top. Material changes will also be noted in the app&#8217;s release notes.</p>
+
+  <section class="contact" aria-label="Contact" style="margin-top: 32px;">
+    <div>
+      <strong>Contact</strong><br>
+      <span style="color: var(--muted);">Questions about privacy or the app</span>
+    </div>
+    <a class="btn" href="mailto:terence@f22clarity.com?subject=W%C3%A8id%C3%A0o%20privacy">terence@f22clarity.com</a>
+  </section>
+
+  <footer>
+    <span class="pill">Version 1.0</span>
+    <p>W&#232;id&#224;o &#21619;&#36947; is made by F22 Clarity. <a href="./">Back to support</a>.</p>
+  </footer>
+</main>
+</body>
+</html>
