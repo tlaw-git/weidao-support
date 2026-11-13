@@ -54,40 +54,49 @@
 
   <section class="banner">
     <h1>Privacy Policy</h1>
-    <p>Last updated 22 September 2026. This policy covers the W&#232;id&#224;o iOS and Android apps.</p>
+    <p>Last updated 13 November 2026. This policy covers the W&#232;id&#224;o iOS and Android apps, published by F22 Clarity.</p>
   </section>
 
-  <p>W&#232;id&#224;o is built to keep family recipes, not to collect information about you. There are no user accounts to create, no advertising, no analytics and no tracking of any kind. We never sell or share your information, and nothing you record or write is used to train our own models.</p>
+  <p>W&#232;id&#224;o is built to keep family recipes, not to collect information about you. There is no advertising, no analytics and no tracking. We never sell your information or share it for marketing, and nothing you record or write is used to train our own models.</p>
 
-  <h2>What stays on your device</h2>
-  <p>Your recipes live in a database on your phone. Titles, ingredients, steps, categories, timings and bookmarks are stored locally and are not uploaded to us. Your language and script preferences are stored locally too. Deleting the app deletes this data.</p>
+  <h2>What stays on your device <span class="zh">保存在手机上</span></h2>
+  <p>Your recipes live in a database on your phone: titles, ingredients, steps in English and Chinese, categories, timings and bookmarks. They are not uploaded to us and we cannot see them. Your language and script preferences are stored on the phone too. Deleting a recipe in the app, or uninstalling the app, removes them.</p>
 
-  <h2>What is sent to our server</h2>
-  <p>Two things leave your device, and only when you choose to record a recipe by voice:</p>
+  <h2>Voice capture <span class="zh">语音录入</span></h2>
+  <p>Only when you record a recipe by voice, two things leave your device:</p>
   <details open>
-    <summary>Audio recordings</summary>
-    <p>When you finish recording, the audio file is sent over an encrypted connection to our server, which forwards it to OpenAI&#8217;s Whisper service to be converted to text. We do not keep the audio. Once the text comes back, the recording is discarded from our server.</p>
+    <summary>The audio recording</summary>
+    <p>It is sent over an encrypted connection to our server (hosted by Supabase), which forwards it to OpenAI to be turned into text. We do not keep the audio.</p>
   </details>
   <details open>
-    <summary>The transcribed recipe text</summary>
-    <p>The text is sent to Anthropic&#8217;s Claude API, which organises it into ingredients and steps and translates it between English and Chinese. The structured recipe is returned to your phone and saved there. We do not keep a copy.</p>
+    <summary>The transcribed text</summary>
+    <p>It is sent to Anthropic&#8217;s Claude, which organises it into ingredients and steps and writes it in both English and Chinese. The recipe comes back to your phone and is saved there. We do not keep a copy.</p>
   </details>
-  <p>These providers process the content to perform the request and may retain it briefly for abuse monitoring under their own policies. See the <a href="https://openai.com/policies/privacy-policy">OpenAI privacy policy</a> and the <a href="https://www.anthropic.com/legal/privacy">Anthropic privacy policy</a>.</p>
+  <p>These providers process the content to complete the request and may keep it briefly for abuse monitoring under their own policies: the <a href="https://openai.com/policies/privacy-policy">OpenAI privacy policy</a> and the <a href="https://www.anthropic.com/legal/privacy">Anthropic privacy policy</a>.</p>
+  <p>The microphone is used only while you are recording, which you start and stop yourself. If you lock your phone or switch apps mid-recording, it keeps recording, with a notification showing, until you tap stop or it reaches 10 minutes. It is never used at any other time.</p>
 
-  <h2>Anonymous app identifier</h2>
-  <p>So that the voice service is not abused by people outside the app, each installation is issued a random, anonymous identifier the first time it is used. We record that identifier with the date and type of each voice request in order to apply daily limits. It contains no name, email address, phone number or device details, and it is not connected to your identity or used to track you across other apps or websites.</p>
+  <h2>Your account <span class="zh">账户</span></h2>
+  <p>Browsing and adding recipes by hand need no account. To use voice capture you sign in with your email address; we email you a one-time code, so there is no password. When you first sign in we ask for your name. We store your email address, your name, whether you asked to receive news about W&#232;id&#224;o, and when you signed up, on our server.</p>
+  <p>We use your email to sign you in and to count how many of your free voice recipes you have used. We only send you news about W&#232;id&#224;o if you switched that option on, and you can ask us to stop at any time.</p>
 
-  <h2>Permissions</h2>
-  <p>The app requests microphone access only for voice capture, and only when you first tap record. You can decline and still add recipes manually. The app does not request contacts, photos, location or any other permission.</p>
+  <h2>Subscriptions <span class="zh">订阅</span></h2>
+  <p>Your first three voice recipes are free. After that, voice capture needs a monthly or yearly subscription. Payment is handled entirely by Apple or Google; we never see your card or billing details. We use RevenueCat to check whether your subscription is active (<a href="https://www.revenuecat.com/privacy">RevenueCat privacy policy</a>). RevenueCat receives your account identifier, your W&#232;id&#224;o purchase history, and your email address and name so we can recognise subscribers.</p>
 
-  <h2>Children</h2>
-  <p>W&#232;id&#224;o is suitable for all ages and does not knowingly collect personal information from anyone, including children.</p>
+  <h2>Sharing a recipe <span class="zh">分享食谱</span></h2>
+  <p>Subscribers can share a recipe by email. W&#232;id&#224;o writes the email on your phone and hands it to your own mail app, where you choose who to send it to. The recipe and the address never pass through our server.</p>
 
-  <h2>Your choices</h2>
-  <p>Because your recipes are stored only on your device, you control them directly: edit or delete recipes in the app, or delete the app to remove all of them. To request deletion of the anonymous usage records associated with your installation, or to ask any question about this policy, email us and we will respond within two business days.</p>
+  <h2>Deleting your account <span class="zh">删除账户</span></h2>
+  <p>Delete your account at any time in the app (Settings &#8594; Account &#8594; Delete account), or without the app on our <a href="delete-account.html">account deletion page</a>. This removes your email address, name, subscription status and usage records from our server, and your customer record at RevenueCat.</p>
+  <p>To stop the free voice recipes being reset by deleting and signing up again, we keep a one-way hash of your email address (not the address itself) and the number of free recipes it has used. Deleting your account does not touch the recipes on your phone, and it does not cancel a subscription: cancel that in your App Store or Google Play account.</p>
 
-  <h2>Changes</h2>
-  <p>If this policy changes we will update this page and the date at the top. Material changes will also be noted in the app&#8217;s release notes.</p>
+  <h2>Permissions <span class="zh">权限</span></h2>
+  <p>The app asks for microphone access only for voice capture, the first time you tap record. You can decline and still add recipes by hand. It does not ask for contacts, photos, location or advertising identifiers.</p>
+
+  <h2>Children <span class="zh">儿童</span></h2>
+  <p>W&#232;id&#224;o is not directed at children under 13, and we do not knowingly collect personal information from children.</p>
+
+  <h2>Changes <span class="zh">变更</span></h2>
+  <p>If this policy changes we will update this page and the date at the top.</p>
 
   <section class="contact" aria-label="Contact" style="margin-top: 32px;">
     <div>
@@ -98,8 +107,8 @@
   </section>
 
   <footer>
-    <span class="pill">Version 1.0</span>
-    <p>W&#232;id&#224;o &#21619;&#36947; is made by F22 Clarity. <a href="./">Back to support</a>.</p>
+    <span class="pill">Version 1.1</span>
+    <p>W&#232;id&#224;o &#21619;&#36947; is made by F22 Clarity. <a href="./">Back to support</a> &#183; <a href="delete-account.html">Delete your account</a></p>
   </footer>
 </main>
 </body>
